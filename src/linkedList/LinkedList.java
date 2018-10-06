@@ -41,6 +41,9 @@ public class LinkedList {
 		return first.data;
 	}
 	
+	public Object remove(int i) {
+		return null;
+	}
 	public void push(Object d) { //Push element to the front of the list
 		Node node = new Node(d);
 		node.next = first;
